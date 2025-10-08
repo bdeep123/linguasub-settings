@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Translation History | LinguaSub</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #E3F2FD;
+      color: #0D47A1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 20px;
+    }
+    .history-item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 15px auto;
+      padding: 15px;
+      max-width: 500px;
+      text-align: left;
+    }
+    .history-item p {
+      margin: 5px 0;
+    }
+    .btn-clear {
+      background-color: #D32F2F;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    .btn-clear:active {
+      background-color: #9a2323;
+    }
+  </style>
+</head>
+<body>
+  <h2>Translation History</h2>
+  <p>Review your previously translated videos and subtitles.</p>
+
+  <div class="history-item">
+    <p><strong>Video:</strong> KDrama_Scene1.mp4</p>
+    <p><strong>Translated:</strong> Korean ➜ English</p>
+    <p><strong>Date:</strong> Oct 8, 2025</p>
+  </div>
+
+  <div class="history-item">
+    <p><strong>Video:</strong> TravelVlog_ES.mp4</p>
+    <p><strong>Translated:</strong> Spanish ➜ English</p>
+    <p><strong>Date:</strong> Oct 6, 2025</p>
+  </div>
+
+  <button class="btn-clear" onclick="alert('History cleared!')">Clear History</button>
+</body>
+</html>
